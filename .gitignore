@@ -1,0 +1,45 @@
+node_modules/
+
+# Secrets — never commit these
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# Hardhat
+artifacts/
+cache/
+coverage/
+coverage.json
+typechain-types/
+
+# Generated deployment output
+deployments/
+
+# Frontend
+frontend/dist/
+frontend/node_modules/
+frontend/.vite/
+nft-dapp/node_modules/
+nft-dapp/dist/
+nft-dapp/.vite/
+velora/node_modules/
+velora/dist/
+velora/.vite/
+velora/screenshots/
+velora/server/data/
+
+# Backend
+backend/node_modules/
+backend/uploads/
+backend/logs/
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+Sarita_Rao_Resume.docx
+_resume_extract/
+_resume_build/
